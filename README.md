@@ -32,16 +32,28 @@ XPayBack-Assessment
 
 ## Task Details
 
-**Task 1:** User Registration with PostgreSQL and MongoDB
+**Task 1: User Registration with PostgreSQL and MongoDB**
 1. **User Registration Endpoint:**
 
 - **Fields:** Full Name, Email, Password, Phone, Profile Picture
-    - **Storage:**
-      - **PostgreSQL:** First Name, Password, Email, Phone
-      - **MongoDB:** Profile Picture
-      - **Validation:** Ensures the email does not already exist.
+- **Storage:**
+  - **PostgreSQL:** First Name, Password, Email, Phone
+  - **MongoDB:** Profile Picture
+  - **Validation:** Ensures the email does not already exist.
 
 2. **User Details Retrieval Endpoint:**
 
   - **Method:** GET
   - **Description:** Retrieves details of a registered user.
+
+**Task 2: User Registration with PostgreSQL**
+1. **User Registration Endpoint:**
+  - **Fields:** Full Name, Email, Password, Phone, Profile Picture
+  - **Storage:**
+    - **Users Table:** First Name, Password, Email, Phone
+    - **Profile Table:** Profile Picture
+  - **Validation:** Ensures the email and phone number do not already exist.   
+
+2. **User Details Retrieval Endpoint:**
+   - **Method:** GET
+   - **Description:** Retrieves details of a registered user.
