@@ -30,7 +30,8 @@ XPayBack-Assessment
 ```
   
 
-##Task Details
+## Task Details
+
 **Task 1:** User Registration with PostgreSQL and MongoDB
 1. **User Registration Endpoint:**
 
