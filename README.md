@@ -27,3 +27,18 @@ XPayBack-Assessment
 │   └── utils.py
 ├── README.md
 └── requirements.txt
+
+##Task Details
+**Task 1:** User Registration with PostgreSQL and MongoDB
+1. **User Registration Endpoint:**
+
+- **Fields:** Full Name, Email, Password, Phone, Profile Picture
+  - **Storage:**
+    - **PostgreSQL:** First Name, Password, Email, Phone
+    - **MongoDB:** Profile Picture
+    - **Validation:** Ensures the email does not already exist.
+
+2. **User Details Retrieval Endpoint:**
+
+  - **Method:** GET
+  - **Description:** Retrieves details of a registered user.
