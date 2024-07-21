@@ -42,7 +42,6 @@ XPayBack-Assessment
   - **Validation:** Ensures the email does not already exist.
 
 2. **User Details Retrieval Endpoint:**
-
   - **Method:** GET
   - **Description:** Retrieves details of a registered user.
 
@@ -55,5 +54,5 @@ XPayBack-Assessment
   - **Validation:** Ensures the email and phone number do not already exist.   
 
 2. **User Details Retrieval Endpoint:**
-   - **Method:** GET
-   - **Description:** Retrieves details of a registered user.
+  - **Method:** GET
+  - **Description:** Retrieves details of a registered user.
