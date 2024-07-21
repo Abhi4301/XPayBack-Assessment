@@ -36,11 +36,10 @@ XPayBack-Assessment
 1. **User Registration Endpoint:**
 
 - **Fields:** Full Name, Email, Password, Phone, Profile Picture
-  
-  - **Storage:**
-    - **PostgreSQL:** First Name, Password, Email, Phone
-    - **MongoDB:** Profile Picture
-    - **Validation:** Ensures the email does not already exist.
+    - **Storage:**
+      - **PostgreSQL:** First Name, Password, Email, Phone
+      - **MongoDB:** Profile Picture
+      - **Validation:** Ensures the email does not already exist.
 
 2. **User Details Retrieval Endpoint:**
 
